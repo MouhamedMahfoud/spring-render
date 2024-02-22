@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/locationphormacie
-    username: sprigdata
-    password: 12345
+    url: jdbc:postgresql://roundhouse.proxy.rlwy.net:57673/railway                             #localhost:5432/locationphormacie
+    username: postgres
+    password: d-56AB2Bf1bG*ABCbdedGgFcgD3-aA3-
     driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:

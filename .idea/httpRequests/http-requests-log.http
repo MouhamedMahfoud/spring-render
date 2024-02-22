@@ -1,3 +1,46 @@
+POST http://localhost:9001/locationpharmacie/wilaya/create
+Content-Type: application/json
+Content-Length: 56
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "nom": "Nouakchott sud",
+  "description": "Wilaya"
+}
+
+<> 2024-02-22T200600.200.json
+
+###
+
+GET http://localhost:9001/locationpharmacie/wilaya/all
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-02-22T200321.200.json
+
+###
+
+GET http://localhost:9001/locationpharmacie/wilaya/all
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-02-22T200306.200.json
+
+###
+
+GET http://localhost:9001/locationpharmacie/wilaya/all
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-02-22T181432.200.json
+
+###
+
 GET http://localhost:9001/locationpharmacie/wilaya/all
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
